@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio JS</title>
+</head>
+<body>
+    <form>
+        <div class="first-row">
+          <div class="firts-row-NomeDoCliente">
+            <label for="inputNomeCliente">Nome do Cliente </label>
+            <input type="text" class="form-control" id="inputNomeCliente" placeholder="João Da Silva">
+          </div>
+          <div class="first-row-Endereço">
+            <label for="inputEndereço">Endereço </label>
+            <input type="text" class="form-control" id="inputEdereço" placeholder="Ex: Rua Dos Exemplos, 2">
+          </div>
+          <div class="first-row-Cidade">
+            <label for="inputCidade">Cidade </label>
+            <input type="text" class="form-control" id="inputCidade" placeholder="EX: Sorocaba">
+          </div>
+        </div>
+        <div class="second-row">
+            <div class="second-row-Email">
+                <label for="inputAddress">Email </label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Ex: email@email.com.br ">
+            </div>
+            <div class="second-row">
+                <label for="inputAddress">Complemento </label>
+                <input type="text" class="form-control" id="inputComplemento" placeholder="Ex: Casa, Apartamento, Bloco. ">
+            </div>
+            <div class="second-row-uf">
+                <label for="inputUF">UF</label>
+                <select id="inputUF" class="form-control">
+                  <option selected>Selecione</option>
+                  <option>AC</option>
+                  <option>AL</option>
+                  <option>AP</option>
+                  <option>AM</option>
+                  <option>BA</option>
+                  <option>CE</option>
+                  <option>DF</option>
+                  <option>ES</option>
+                  <option>GO</option>
+                  <option>MT</option>
+                  <option>MS</option>
+                  <option>MG</option>
+                  <option>PA</option>
+                  <option>PB</option>
+                  <option>PE</option>
+                  <option>PI</option>
+                  <option>RJ</option>
+                  <option>RS</option>
+                  <option>RO</option>
+                  <option>RR</option>
+                  <option>SC</option>
+                  <option>SP</option>
+                  <option>RE</option>
+                  <option>TO</option>
+                </select>
+              </div>
+        </div>
+        <div class="third-row">
+            <div class="third-row-Telefone">
+                <label for="inputTelefone">Telefone</label>
+                <input type="text" class="form-control" id="inputTelefone" placeholder="EX: (12)12545-2541">
+            </div>
+            <div class="third-row-Bairro">
+                <label for="inputTelefone">Bairro</label>
+                <input type="text" class="form-control" id="inputBairro" placeholder="EX: Jd . Planalto">
+            </div>
+            <div class="third-row-Telefone">
+                <label for="inputTelefone">CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="EX: 12345-123">
+            </div>
+        </div>
+    </form>
+        <button type="submit" class="btn btn-primary">Submit</button>
+  
+    <script src="js/index.js"></script>
+</body>
+</html>
